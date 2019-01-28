@@ -53,8 +53,10 @@ public class SubsetSum {
 		{
 			// Input: set of items
 			int[] A = { 7, 3, 1, 5, 4, 8 };
+			int[] B = {1, 10, 11, 3, 34};
 
 			System.out.println(partition(A));
+			System.out.println(partition(B));
 		}
 
 }
